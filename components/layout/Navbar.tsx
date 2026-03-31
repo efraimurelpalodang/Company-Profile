@@ -3,15 +3,15 @@ import Link from "next/link"
 const Navbar = () => {
   return (
     <div>
-      <nav className='max-w-3xl mx-auto px-4 my-5 p-5 flex justify-around items-center gap-1'>
-        <div className='font-bold'>
-          <h1 className="text-3xl">EasyClickService.</h1>
+      <nav className='md:max-w-152 md:mx-auto my-5 md:py-3.5 md:px-3 flex justify-between items-center gap-4 backdrop-blur-xl bg-white/20 border border-white/10 shadow-lg rounded-full'>
+        <div className='font-bold ml-5'>
+          <h1 className="text-xl">EfraimUrelPalodang</h1>
         </div>
-        <div className='bg-green-300 flex-4.5 rounded-full py-3.5 px-1.5 font-medium'>
+        <div className='rounded-full py-3.5 px-1.5 font-medium bg-white/20 backdrop-blur-xl'>
           <ul className='flex justify-between gap-1 text-sm'>
-            <li><Link href={'#'} className="hover:bg-gray-800 hover:text-gray-50 transition-all duration-500 py-2 px-4 rounded-full">Beranda</Link></li>
-            <li><Link href={'#'} className="hover:bg-gray-800 hover:text-gray-50 transition-all duration-500 py-2 px-4 rounded-full">Tentang Kami</Link></li>
-            <li><Link href={'#'} className="hover:bg-gray-800 hover:text-gray-50 transition-all duration-500 py-2 px-4 rounded-full">Kontak Kami</Link></li>
+            <li><Link href={'#'} className="flex-4.5 rounded-full py-3 px-6 hover:backdrop-blur-xl hover:bg-white/10 hover:shadow-lg hover:text-gray-900 text-gray-500 transition-all">Beranda</Link></li>
+            <li><Link href={'#'} className="flex-4.5 rounded-full py-3 px-6 hover:backdrop-blur-xl hover:bg-white/10 hover:shadow-lg hover:text-gray-900 text-gray-500 transition-all">Layanan</Link></li>
+            <li><Link href={'#'} className="flex-4.5 rounded-full py-3 px-6 hover:backdrop-blur-xl hover:bg-white/10 hover:shadow-lg hover:text-gray-900 text-gray-500 transition-all">Kontak</Link></li>
           </ul>
         </div>  
       </nav>
